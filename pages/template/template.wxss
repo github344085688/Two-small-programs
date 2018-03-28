@@ -1,0 +1,11 @@
+/* pages/template/template.wxss */
+
+.search {
+  padding: 20rppx;
+}
+
+.search>input {
+  border: 1px solid #ddd;
+  border-radius: 12rpx;
+  padding-left: 10rpx;
+}

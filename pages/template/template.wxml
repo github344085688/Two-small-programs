@@ -1,0 +1,13 @@
+<!-- 客服咨询 -->
+<template name="index">
+  <button open-type="contact" style="" class="btn {{iconShowSY==1?'block':'none'}}" bindtap='count'></button>
+  <image src='../images/contact.png' class="img {{iconShowSY==1?'block':'none'}}"></image>
+</template>
+<template name="question">
+  <button open-type="contact" style="" class="btn {{iconShowFK==1?'block':'none'}}" bindtap='count'></button>
+  <image src='../images/contact.png' class="img {{iconShowFK==1?'block':'none'}}"></image>
+</template>
+<template name="contact">
+  <button open-type="contact" style="" class="btn {{iconShowLX==1?'block':'none'}}" bindtap='count'></button>
+  <image src='../images/contact.png' class="img {{iconShowLX==1?'block':'none'}}"></image>
+</template>

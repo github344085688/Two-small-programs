@@ -1,0 +1,26 @@
+@import "/wxParse/wxParse.wxss";
+.btn {
+  width: 105rpx;
+  height: 140rpx;
+  position: fixed;
+  right: 16rpx;
+  top: 40%;
+  opacity: 0;
+  z-index: 111;
+}
+
+.img {
+  width: 100rpx;
+   height: 140rpx; 
+  position: fixed;
+  right: 16rpx;
+  top: 40%;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}

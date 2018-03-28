@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/contact/contact",
+    "pages/question/question"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "#000",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/index_active.png",
+        "iconPath": "pages/images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/question_active.png",
+        "iconPath": "pages/images/question.png",
+        "pagePath": "pages/question/question",
+        "text": "客户反馈"
+      },
+      {
+        "selectedIconPath": "pages/images/mine_active.png",
+        "iconPath": "pages/images/mine.png",
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们"
+      }
+    ]
+  }
+}

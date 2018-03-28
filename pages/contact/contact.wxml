@@ -1,0 +1,6 @@
+<import src="../template/template"></import>
+<template is="contact" data="{{iconShowLX}}" wx:key="questions"></template>
+<import src="../../wxParse/wxParse.wxml" />
+<view class="wxParse">
+  <template is="wxParse" data="{{wxParseData:contact.nodes}}" />
+</view>

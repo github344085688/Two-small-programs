@@ -1,0 +1,6 @@
+<import src="../template/template"></import>
+<template is="index" data="{{iconShowSY}}" wx:key="index"></template>
+<import src="../../wxParse/wxParse.wxml" />
+<view class="wxParse">
+  <template is="wxParse" data="{{wxParseData:index.nodes}}" />
+</view>
